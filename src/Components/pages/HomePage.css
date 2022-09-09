@@ -6,7 +6,7 @@
     border: none;
 }
 .preview{
-    height: 600px;
+    height: 650px;
     width: 100%;
     background: url(../pages/pagesImg/0317dfa27223471ac1a44d76d61b8f65.jpg)
      no-repeat left center fixed;
@@ -14,10 +14,12 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position-x: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .title{
     background-color: white;
     width: 450px;
