@@ -18,14 +18,24 @@ export const HomePage = () => {
         </div>
       </div>
       <div className="container">
-        <p className="shirtsTitle">Футболки</p>
+        <div className="shirtsTitle">
+          <h1>OUR COLLECTION</h1>
+          <p>
+            I'm a paragraph. Click here to add your own text and edit me. It’s
+            easy. Just click “Edit Text” or double click me to add your own
+            content and make changes to the font. I’m a great place for you to
+            tell a story and let your users know a little more about you.
+          </p>
+        </div>
+
         <div className="shirtsPart">
-          {tShirtsArray.map(({ id, title, img, price, text }) => (
+          {tShirtsArray.map(({ id, title, img1, img2, price, text }) => (
             <Grid item xs={12} sm={6} md={4} key={id}>
               <ShirtElement
                 id={id}
                 title={title}
-                img={img}
+                img1={img1}
+                img2={img2}
                 price={price}
                 text={text}
               />

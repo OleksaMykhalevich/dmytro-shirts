@@ -17,6 +17,14 @@
 .backgroundImg img{
     width: 100%;
 }
+@media (min-width:768px) {
+    
+    .backgroundImg img{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
 .title img{
     max-width: 100%;
     
@@ -30,17 +38,27 @@
     flex-direction: column;
     position: absolute;
 }
+@media (max-width:768px) {
+    .preview{
+    margin-top: 50px;
+}}
 @media (max-width:425px) {
+    .preview{
+        margin-top: 100px;
+    }
     .title{
-        width: 200px;
+        width: 150px;
         height: 65px;
+    }
+    .backgroundImg img {
+        height: 150%;
     }
 }
 .title img{
-    height: 220px;
+    height: 100%;
 }
 .shirtItem{
-    width: 250px ;
+    width: 300px;
     border: 2px solid gray;
     margin:50px 0px 50px 0px ;
 }
@@ -59,5 +77,50 @@
     width: 100%;
     text-align: center;
     font-size: 25px;
-    margin-top: 35px;
+    margin: 30px 0px 60px 0px;
+}
+.postContent{
+    height: 150px;
+}
+.postContent p:first-child {
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 7px;
+}
+.postText{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+.line{
+    width: 100%;
+    background-color: gray;
+    height: 1px;
+}
+.postImg1{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.postImg{
+    width: 100%;
+    height: 100%;
+}
+.shirtItem:hover .postImg1{
+    display: block;
+}
+.shirtItem:hover .postImg{
+    display: none;
+}
+.shirtItem:hover .viewMore a{
+    background-color: gray;
+}
+.viewMore{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+.viewMore a{
+border: 2px solid black;
+padding: 3px 20px ;
 }
