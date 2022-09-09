@@ -4,10 +4,9 @@ import "../Main/grid.css";
 // import { AboutPage } from "../../componants/pages/AboutPage";
 import { Route, Routes } from "react-router-dom";
 // import PostsPage from "../../componants/pages/PostsPage";
-import { useSelector } from "react-redux";
 
-export const Main = ({ postsArray }) => {
-  const post = useSelector((state) => state.post.currentPost);
+export const Main = () => {
+  // const post = useSelector((state) => state.post.currentPost);
 
   return (
     <>

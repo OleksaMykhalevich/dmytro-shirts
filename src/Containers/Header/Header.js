@@ -4,9 +4,8 @@ import facebook from "../Header/imgHeader/facebook.webp";
 import twiter from "../Header/imgHeader/twiter.webp";
 import logo from "../Header/imgHeader/logo.jpg";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 
-const setNavLinkClass = ({ isActive }) => (isActive ? "nav-link" : "menu-link");
+// const setNavLinkClass = ({ isActive }) => (isActive ? "nav-link" : "menu-link");
 
 export const Header = () => {
   const [menuActive, setMenuActive] = useState(false);

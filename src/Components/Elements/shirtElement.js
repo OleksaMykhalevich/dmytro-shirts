@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const ShirtElement = ({ id, title, img, price, text }) => {
   return (
