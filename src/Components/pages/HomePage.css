@@ -6,28 +6,35 @@
     border: none;
 }
 .preview{
-    height: 650px;
-    width: 100%;
-    background: url(../pages/pagesImg/0317dfa27223471ac1a44d76d61b8f65.jpg)
-     no-repeat left center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.backgroundImg{
+    width: 100%;
+    display: block;
+}
+.backgroundImg img{
+    width: 100%;
+}
+.title img{
+    max-width: 100%;
+    
+}
 .title{
-    background-color: white;
-    width: 450px;
-    height: 225px;
+    width: 300px;
+    height:100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+    position: absolute;
+}
+@media (max-width:425px) {
+    .title{
+        width: 200px;
+        height: 65px;
+    }
 }
 .title img{
     height: 220px;
@@ -35,6 +42,7 @@
 .shirtItem{
     width: 250px ;
     border: 2px solid gray;
+    margin:50px 0px 50px 0px ;
 }
 .shirt img{
     width: 100%;
