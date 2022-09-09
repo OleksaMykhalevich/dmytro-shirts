@@ -123,4 +123,6 @@ margin-bottom: 7px;
 .viewMore a{
 border: 2px solid black;
 padding: 3px 20px ;
+text-decoration: none;
+color: black;
 }

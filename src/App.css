@@ -8,3 +8,10 @@
   margin-right: auto;
   margin-left: auto;
 }
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Akshar', sans-serif;
+  border: none;
+}
