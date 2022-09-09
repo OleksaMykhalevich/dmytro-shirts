@@ -13,7 +13,7 @@ export const ShirtElement = ({ id, title, img1, img2, price, text }) => {
             <p className="postText">$ {price}</p>
             {/* <p className="line"> </p> */}
             <div className="viewMore">
-              <a>View more</a>
+              <a href="/">View more</a>
             </div>
           </div>
         </div>

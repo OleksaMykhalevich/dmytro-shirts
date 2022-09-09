@@ -14,7 +14,7 @@ window.onscroll = function headerChanger() {
     window.pageYOffset || document.documentElement.scrollTop;
   const containHide = () => header.classList.contains("hide");
   const header = document.querySelector(".header");
-  const scrolledDown = document.querySelector(".scrolledDown");
+  // const scrolledDown = document.querySelector(".scrolledDown");
   const headerMenu1 = document.querySelector(".headerMenu");
   const burgerActive = () => headerMenu1.classList.contains("active");
   if (
